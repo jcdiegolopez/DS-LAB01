@@ -8,10 +8,10 @@ Desviación estándar,27728.03232666585
 Coeficiente de variación,0.305441279243419
 Mínimo mensual,489.0
 Máximo mensual,158463.0
-ACF rezago 1,0.7824874631969471
-ACF rezago 12,0.2511892921564459
-ADF nivel: estadístico,-3.1938990857578506
-ADF nivel: p-valor,0.020340551221270528
+ACF rezago 1,0.7824874631969474
+ACF rezago 12,0.2511892921564457
+ADF nivel: estadístico,-3.193899085757851
+ADF nivel: p-valor,0.020340551221270486
 ADF log1p: p-valor,0.014165142428062827
-ADF primera diferencia: estadístico,-4.340422527213559
-ADF primera diferencia: p-valor,0.0003778138412838519
+ADF primera diferencia: estadístico,-4.340422527213539
+ADF primera diferencia: p-valor,0.000377813841283883

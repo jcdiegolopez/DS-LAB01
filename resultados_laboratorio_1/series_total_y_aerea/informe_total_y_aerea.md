@@ -6,12 +6,12 @@ Las dos series se agregaron mensualmente, cubren el mismo intervalo y se dividie
 
 | Serie | Inicio–fin | ADF p (`log1p`) | d propuesto | Fuerza estacional | Caída 2020 vs 2019 | Modelo final | MAE | RMSE | Ljung-Box p |
 |---|---|---:|---:|---:|---:|---|---:|---:|---:|
-| Total mensual | 2009-01 a 2026-06 | 0.0259 | 0 | 0.235 | -73.0% | Holt-Winters | 188,112 | 205,438 | 0.7521 |
+| Total mensual | 2009-01 a 2026-06 | 0.0259 | 0 | 0.235 | -73.0% | Holt-Winters | 188,266 | 205,592 | 0.7523 |
 | Vía aérea | 2009-01 a 2026-06 | 0.0142 | 0 | 0.159 | -72.3% | ARIMA/SARIMA seleccionado (ARIMA(1, 0, 1)) | 24,962 | 30,140 | 0.5283 |
 
 ## Interpretación
 
-- **Total mensual:** la ADF sobre `log1p` tiene p = 0.0259; por ello no requiere diferenciación regular según ADF. La ACF/PACF, la descomposición y los candidatos ARIMA/SARIMA quedan documentados en las figuras y tablas. El modelo final es **Holt-Winters**, con MAE = 188,112 y RMSE = 205,438 en el 30% final.
+- **Total mensual:** la ADF sobre `log1p` tiene p = 0.0259; por ello no requiere diferenciación regular según ADF. La ACF/PACF, la descomposición y los candidatos ARIMA/SARIMA quedan documentados en las figuras y tablas. El modelo final es **Holt-Winters**, con MAE = 188,266 y RMSE = 205,592 en el 30% final.
 - **Vía aérea:** la ADF sobre `log1p` tiene p = 0.0142; por ello no requiere diferenciación regular según ADF. La ACF/PACF, la descomposición y los candidatos ARIMA/SARIMA quedan documentados en las figuras y tablas. El modelo final es **ARIMA/SARIMA seleccionado** (ARIMA(1, 0, 1)), con MAE = 24,962 y RMSE = 30,140 en el 30% final.
 
 ## Nota de interpretación
